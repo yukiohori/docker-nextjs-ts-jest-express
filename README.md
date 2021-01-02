@@ -1,2 +1,3 @@
 # docker-nextjs-ts-jest-express
-my start up
+docker-compose build
+docker-compose up
