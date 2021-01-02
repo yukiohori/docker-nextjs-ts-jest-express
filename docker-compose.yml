@@ -1,0 +1,10 @@
+version: '3'
+services:
+  nextjs:
+    build: ./docker/
+    container_name: nextjs-ts-jest-express
+    volumes:
+      - ./app:/usr/src/app
+    command: "yarn dev"
+    ports:
+      - "4001:3000"
